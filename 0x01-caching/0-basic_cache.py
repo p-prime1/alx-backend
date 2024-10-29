@@ -8,7 +8,7 @@ class BasicCache(BaseCaching):
 
     def __init__(self):
         """Initialize"""
-        self.cache_data = {}
+        super().__init__()
 
     def put(self, key, item):
         """Add an item in the cache"""
