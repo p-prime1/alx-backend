@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+"""Module contains FIFOCache class"""
 from base_caching import BaseCaching
 from collections import OrderedDict
-"""Module contains FIFOCache class"""
 
 
 class FIFOCache(BaseCaching):

@@ -1,7 +1,9 @@
 #!/usr/bin/env python
-BaseCaching = __import__('base_caching').BaseCaching
-from collections import OrderedDict
 """Module contains FIFOCache class"""
+
+
+from base_caching import BaseCaching
+from collections import OrderedDict
 
 
 class LIFOCache(BaseCaching):
