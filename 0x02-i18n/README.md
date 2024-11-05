@@ -1,0 +1,1 @@
+Using Flask_Babel for internationalization
