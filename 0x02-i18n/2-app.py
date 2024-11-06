@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""get_locale fun determines the best match for supported languages"""
+"""Get_locale fun determines the best match for supported languages
+    Config consist of supported languages and Locale timezone"""
 from flask import Flask, render_template, request
 from flask_babel import Babel
 
@@ -27,6 +28,7 @@ def get_locale():
 
 @app.route('/')
 def home():
+    """Renders the the html fiel"""
     return render_template('0-index.html')
 
 
