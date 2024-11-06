@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
+"""get_locale fun determines the best match for supported languages"""
 from flask import Flask, render_template, request
 from flask_babel import Babel
-"""get_locale fun determines the best match for supported languages"""
 
 
 class Config:
