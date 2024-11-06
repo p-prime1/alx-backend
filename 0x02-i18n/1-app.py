@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Module inititalizes contains Config class which contains supported
-languages and instantiates babel"""
+    languages the home function renders the html file,
+    and module also instantiates babel"""
 
 from flask import Flask, render_template
 from flask_babel import Babel
@@ -14,7 +15,6 @@ class Config:
 
 
 app = Flask(__name__)
-
 babel = Babel(app)
 
 
