@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module inititalizes contains Config class and instantiates babel"""
+"""Module inititalizes contains Config class which contains supported languages and instantiates babel"""
 
 from flask import Flask, render_template
 from flask_babel import Babel
